@@ -1,0 +1,20 @@
+/* Styles for the media container */
+.mediaContainer {
+  > h2 {
+    font-size: 24px;
+
+    padding: 2rem;
+  }
+  > section {
+    display: flex;
+    overflow: auto;
+    > div {
+        display: flex;
+        padding: 1rem;
+        margin: 1rem;
+    }
+  }
+}
+.video-card{
+    padding: 1rem;
+}

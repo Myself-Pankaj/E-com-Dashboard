@@ -1,0 +1,60 @@
+.RightSide{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    justify-content: space-evenly;
+    
+}
+@media screen and (max-width: 1200px) {
+    .RightSide{
+        justify-content: flex-start;
+        margin-top: 3rem;
+
+    }
+}
+  
+  @media screen and (max-width: 768px) {
+    .RightSide{
+        width: 100%;
+        margin-top: 0;
+    }
+    .RightSide>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.user-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: left;
+  
+    h3 {
+      margin-top: 0;
+    }
+  
+    p {
+      margin: 5px 0;
+    }
+  }
+  
+
+  .user-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  

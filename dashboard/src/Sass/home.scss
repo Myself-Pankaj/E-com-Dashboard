@@ -1,0 +1,34 @@
+.home-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("../Assets/1.jpg") center/cover no-repeat;
+  
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  
+      h1 {
+        font-size: 2rem;
+        color: white;
+      }
+  
+      button {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      >p{
+        font-size: 2rem;
+        color: white;
+      }
+    }
+  }
+  

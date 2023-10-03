@@ -1,0 +1,61 @@
+.loginContainer {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem;
+
+  background-color: $color5;
+  .loginForm {
+    display: flex;
+    justify-content: space-between;
+    > div {
+      > span {
+        border: 2px solid $color1;
+        border-radius: 5px;
+        padding: 8px;
+        margin: 2rem;
+        > label {
+          color: $color1;
+          background-color: $color5;
+          position: absolute;
+          top: 2px;
+          z-index: 1;
+          padding-left: 3px;
+          padding-right: 3px;
+        }
+        > input {
+          border: none;
+          padding: 6px;
+          color: $color1;
+          background-color: $color5;
+
+          &:focus {
+            border-color: #007bff;
+            outline: none; /* Remove the default focus outline */
+          }
+        }
+      }>button{
+        color: $color5;
+        background-color:  #f5fdfe;
+        padding: 0.6rem;
+        border: none;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+.logoutContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: $color5;
+  >button{
+    color: $color5;
+    background-color:  #f5fdfe;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 4px;
+  }
+  
+}
+

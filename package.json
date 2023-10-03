@@ -1,0 +1,44 @@
+{
+  "name": "attarshop",
+  "version": "1.0.0",
+  "description": "perfume ecommerce shop",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": " node server.js",
+    "build": "npm install --prefix dashboard && npm run build --prefix dashboard && npm install"
+  },
+  "keywords": [
+    "perfume",
+    "fraganance"
+  ],
+  "author": "Pankaj",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.22.11",
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.37.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cron": "^2.3.1",
+    "dotenv": "^16.0.3",
+    "exceljs": "^4.3.0",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-rate-limit": "^6.7.0",
+    "express-validator": "^7.0.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.2.0",
+    "mongoose-paginate-v2": "^1.7.1",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.2",
+    "nodemon": "^2.0.22",
+    "razorpay": "^2.8.6",
+    "uuid": "^9.0.0"
+  }
+}
